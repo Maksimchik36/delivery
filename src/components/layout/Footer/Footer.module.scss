@@ -1,0 +1,17 @@
+.wrapper {
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    background-color: var(--background_color_dark);
+    color: var(--second_text_color_white);
+    justify-content: center;
+
+    // @media (max-width: 768px) {
+    //     flex-direction: column-reverse;
+    //     gap: 16px;
+    // }
+}
+
+// .copyright {
+//     color: var(--main_text_color_black);
+// }

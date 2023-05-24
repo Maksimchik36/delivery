@@ -1,0 +1,35 @@
+.headerNav {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    z-index: 100;
+    background-color: var(--background_color_dark);
+    padding: 15px;
+    font-weight: 700;
+}
+
+.menuNav {
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+    gap: 16px;
+}
+
+.menuNav a {
+    font-size: 28px;
+}
+
+.navLinkNav {
+    color: var(--second_text_color_white);
+
+    &:hover {
+        color: var(--color_hover);
+    }
+}
+
+.activeNavLinkNav {
+    transition-duration: 1000ms;
+    color: var(--color_active);
+}

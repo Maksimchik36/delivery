@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background_color_light);
+    height: 100vh;
+    padding: 80px 15px 0px;
+    gap: 15px
+}
+
+.shopsWrapper {
+    margin-right: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: red;
+}
+
+.cardsWrapper {
+    width: 60%;
+    padding: 10px;
+    background-color: rgb(30, 92, 235);
+}

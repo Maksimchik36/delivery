@@ -1,0 +1,30 @@
+:root {
+    --main_text_color_black: #000000;
+    --second_text_color_white: #ffffff;
+
+    --background_color_light: #b2d9f3;
+    --background_color_dark: #4a4a4a;
+
+    --color_hover: rgb(255, 255, 0);
+    --color_active: rgb(247, 158, 16);
+
+
+    // --color_white: #ffffff;
+
+    // --color_active_1: yellow;
+    // --color_active_2: green;
+
+    // --color_active_4: rgb(121, 18, 218);
+    // --color_active_5: rgb(147, 214, 1);
+
+    --facebook_color: #4267b2;
+    --telegram_color: #229ed9;
+    --linkedin_color: #0e76a8;
+}
+
+$mobile: '320px';
+$tablet: '768px';
+$desktop: '1440px';
+
+// Зразок, як користуватись:
+// @media screen and (min-width: $desktop) {}

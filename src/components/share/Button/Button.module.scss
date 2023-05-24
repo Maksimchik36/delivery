@@ -1,0 +1,21 @@
+.button {
+    text-align: center;
+
+    color: #feebb2;
+    background-color: transparent;
+    border: 2px solid #feebb2;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 16px 24px;
+    transition-duration: 1s;
+}
+
+.button:focus,
+.button:hover {
+    background-color: #feebb2;
+    color: #263238;
+}
+
+.button:not(:last-child) {
+    margin-bottom: 10px;
+}
