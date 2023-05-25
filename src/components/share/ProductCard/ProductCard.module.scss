@@ -1,8 +1,24 @@
 .wrapper {
     max-width: 300px;
     max-height: 300px;
+    padding:10px;
     background-color: rgb(103, 234, 10);
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    border: 2px solid black;
+}
+
+// .wrapper:not(:last-child) {
+//     margin-bottom: 10px;
+// }
+
+.photo{
+    width:200px;
+    height:150px;
+    object-fit: cover;
+}
+
+.name{
+    font-size:20px;
 }

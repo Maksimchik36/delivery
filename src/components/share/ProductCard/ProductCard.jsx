@@ -3,11 +3,11 @@ import styles from './ProductCard.module.scss';
 import Button from '../Button';
 
 
-const ProductCard = () => {
+const ProductCard = ({id, name, image}) => {
     return (
-        <div className={styles.wrapper}>
-            <img src="https://via.placeholder.com/200x100/258DC8/E0F6FD" alt="product" />
-            <p>Product</p>
+        <div className={styles.wrapper} id={id}>
+            <img className={styles.photo} src={image} alt={name} />
+            <p className={styles.name}>{name}</p>
             <Button title="Add to cart"></Button>
         </div>
     )

@@ -16,7 +16,7 @@ export const shopsData = [
 
     {
         id: '4',
-        name: 'Burger King	',
+        name: 'Burger King',
     },
 
     {
